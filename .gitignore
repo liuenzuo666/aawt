@@ -1,3 +1,7 @@
+# aawt
+.aawt/
+.aawt-initialized
+
 # Logs
 logs
 *.log

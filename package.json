@@ -1,0 +1,21 @@
+{
+  "name": "aawt",
+  "version": "0.1.0",
+  "description": "Git worktree manager for AI agent workflows",
+  "bin": {
+    "aawt": "./cli.ts"
+  },
+  "files": [
+    "cli.ts",
+    "src/"
+  ],
+  "scripts": {
+    "dev": "bun run cli.ts",
+    "build": "bun build ./cli.ts --compile --outfile aawt"
+  },
+  "dependencies": {
+    "citty": "^0.2.1",
+    "@clack/prompts": "^0.9.1"
+  },
+  "license": "MIT"
+}
